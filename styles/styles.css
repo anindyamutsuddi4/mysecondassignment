@@ -20,7 +20,7 @@
     font-size: medium;
     font-weight: 400px;
     color: #000000;
-  
+
 }
 
 .navbar {
@@ -32,7 +32,7 @@
     height: 71px;
     margin: 0 auto;
     margin-top: 20px;
-  
+
 }
 
 .logo1 {
@@ -51,7 +51,7 @@
     display: flex;
     width: 415px;
     height: 60px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 }
@@ -79,6 +79,126 @@
         justify-content: space-between;
         margin: 0 auto;
         align-items: center;
-      
+
+    }
+}
+
+.banner {
+    display: flex;
+    flex: 1;
+    max-width: 1100px;
+    width: 100%;
+    max-height: 461px;
+    height: 100%;
+    align-items: center;
+    margin: 0 auto;
+
+    margin-top: 6.25rem;
+}
+
+.title {
+    max-width: 550px;
+    width: 100%;
+    max-height: 178px;
+    height: 100%;
+    text-align: justify;
+    align-items: center;
+    font-size: 4.0625rem;
+    font-weight: bold;
+
+
+}
+
+.banner-tittle {
+    margin-top: 140px;
+    gap: 25px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.banner-flower {
+    margin-top: 100px;
+    max-height: 355px;
+    height: 100%;
+}
+
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.colorcode {
+    color: #E95A08;
+
+}
+
+.indulge {
+    max-width: 550px;
+    width: 100%;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: #999797;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+}
+
+@media screen and (max-width:576px) {
+    .banner {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* display: flex;
+        flex-direction: column-reverse;
+        flex:1; */
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .banner-flower {
+        /* max-width: 393.18px; */
+        max-width: 100%;
+
+        height: 245px;
+        margin-top: 25px;
+    }
+
+    .banner-flower img {
+        width: 100%;
+        order: 1;
+    }
+
+    .banner-tittle {
+        height: 15.3125rem;
+        order: 2;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 13px;
+    }
+
+    .title {
+        padding-bottom: 5px;
+        /* max-width: 361px;
+        width: 100%; */
+        max-height: 66px;
+        height: 100%;
+        font-size: 1.5rem;
+    }
+
+    .indulge {
+        font-size: 14px;
     }
 }
