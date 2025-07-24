@@ -13,7 +13,7 @@
 .shop {
     font-size: medium;
     font-weight: 400px;
-    color: #8987A1;
+    color: #00000080;
 }
 
 .cart {
@@ -145,7 +145,7 @@
     justify-content: center;
     font-size: 22px;
     font-weight: 400;
-    color: #999797;
+    color: #00000080;
 }
 
 .inter {
@@ -214,7 +214,7 @@
     padding-left: 140px;
     font-size: 22px;
     font-weight: 400;
-    color: #999797;
+    color: #00000080;
 }
 
 .planto {
@@ -306,7 +306,7 @@ margin: 0 auto; */
         margin-left: 10px;
         margin-right: 5px;
         align-items: flex-end;
-     padding-left: 2px;
+        padding-left: 2px;
 
         width: 90%;
     }
@@ -325,15 +325,159 @@ margin: 0 auto; */
 
     .ourplants {
         margin-top: 30px;
-      
+
         max-width: 393px;
         width: 100%;
-        max-height:117px ;
+        max-height: 117px;
         height: 100%;
         margin-left: 0;
         box-sizing: border-box;
     }
 }
-.lover{
-    
+
+.lover {
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    max-height: 597px;
+    height: 100%;
+    flex: 1;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 200px;
+
+    gap: 75px;
+}
+
+.lover-image {
+    display: block;
+    /* flex: 1; */
+    /* max-height: 597px;
+    height: 100%;
+    max-width: 620px;
+    width: 100%; */
+}
+
+.lover-img {
+    height: 100%;
+}
+
+.flop {
+    max-width: 480px;
+    width: 100%;
+    height: 520px;
+    /* height: 100%; */
+    padding-left: 30px;
+}
+
+.flow {
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.point {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 400;
+    color: #00000080;
+    gap: 1.15rem;
+
+}
+
+@media screen and (max-width:576px) {
+    .lover {
+        display: flex;
+        flex-direction: column;
+        max-width: 393px;
+        width: 100%;
+        max-height: 680px;
+        height: 100%;
+        margin-top: 50px;
+        display: block;
+        gap: 1rem;
+    }
+
+    .lover-image {
+        width: 99%;
+        max-height: 436px;
+        height: 100%;
+    }
+
+    .lover-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    .flow {
+        /* padding-top: 3px; */
+        font-size: 1.5rem;
+        font-weight: bold;
+
+    }
+
+    .point {
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: #00000080;
+        gap: 1.15rem;
+        padding-left: 25px;
+    }
+
+    .flop {
+        max-height: 236px;
+        height: 100%;
+        padding-left: 0%;
+    }
+}
+
+.challenge {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 130px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.deal {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.latest {
+    color: #E95A08;
+}
+
+.indo {
+    font-size: 22px;
+    font-weight: 400;
+    max-width: 888px;
+    width: 100%;
+    margin: 0 auto;
+    color: #00000080;
+
+}
+
+@media screen and (max-width:576px) {
+    .deal {
+        font-size: 24px;
+    }
+
+    .indo {
+        font-size: 14px;
+        max-width: 336px;
+        width: 100%;
+    }
+
 }
