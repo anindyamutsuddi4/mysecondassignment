@@ -481,3 +481,149 @@ margin: 0 auto; */
     }
 
 }
+
+.display-card {
+    max-width: 1080px;
+    width: 100%;
+    max-height: 423px;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    margin: 0 auto;
+    align-items: center;
+    gap: 1.75rem;
+    margin-top: 8.125rem;
+    position: relative;
+}
+
+.display-card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+    position: relative;
+}
+
+.image1 {
+    border-radius: 16px;
+    display: block;
+    z-index: 5;
+    filter: brightness(60%);
+}
+
+.image2 {
+    border-radius: 16px;
+    z-index: 5;
+    filter: brightness(60%);
+}
+
+.image3 {
+    border-radius: 16px;
+    z-index: 5;
+    filter: brightness(60%);
+
+}
+
+.overflow {
+    position: absolute;
+    /* top: 50%;   
+  left: 50%;  
+  transform: translate(-50%, -50%); /* Move back half of its own size */
+    transform: translateX(30%) translateY(130%);
+    z-index: 10;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.overflow1 {
+    position: absolute;
+    /* top: 50%;   
+  left: 50%;  
+  transform: translate(-50%, -50%); /* Move back half of its own size */
+    transform: translateX(40%) translateY(530%);
+    z-index: 10;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.display-card2 {
+    position: relative;
+    flex: 1;
+}
+
+.overflow2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    /* Move back half of its own size */
+
+    z-index: 10;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.shoppy {
+    font-size: 28px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:576px) {
+    .display-card {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        gap: 20px;
+        margin-top: 50px;
+        /* border: 5px solid; */
+    }
+
+    .image3 {
+        width: 100%;
+        height: auto;
+        filter: brightness(40%);
+    }
+
+    .image2 {
+        border-radius: 0%;
+        margin-top: -6px;
+        filter: brightness(40%);
+    }
+
+    .image1 {
+        filter: brightness(40%);
+        margin-bottom: 1px;
+    }
+
+    .display-card1 {
+        width: 100%;
+    }
+
+    .display-card2 {
+        width: 100%;
+    }
+
+    .overflow2 {
+        font-size: 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .shoppy {
+        font-size: 16px;
+    }
+}
