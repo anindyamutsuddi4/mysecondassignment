@@ -18,6 +18,7 @@
 .icon2 {
     max-height: 30px;
     padding-top: 14px;
+
 }
 
 .icon img {
@@ -403,6 +404,7 @@ margin: 0 auto; */
     height: 100%;
     max-width: 620px;
     width: 100%; */
+    z-index: 0;
 }
 
 .lover-img {
@@ -415,6 +417,24 @@ margin: 0 auto; */
     height: 520px;
     /* height: 100%; */
     padding-left: 30px;
+    position: relative;
+    z-index: 0;
+}
+
+.trust img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-180%) translateY(-141%);
+    z-index: 1;
+    height: 286px;
+    width: 286px;
+}
+
+@media screen and (max-width:576px) {
+    .trust img {
+        display: none;
+    }
 }
 
 .flow {
